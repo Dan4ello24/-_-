@@ -1,7 +1,48 @@
-/* body{
-    display:flex
-}
-.stranica1{
-    background-image: ;
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto+Slab:wght@400;700&display=swap');
 
-} */
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+
+
+
+
+ body{
+    font-family:Revalia,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    padding: 2em;
+
+
+}
+.knopki{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #3071a9;
+  }
