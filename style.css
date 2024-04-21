@@ -1,36 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto+Slab:wght@400;700&display=swap');
 
-@keyframes color {
-    0%   { background: #33CCCC; }
-    20%  { background: #33CC36; }
-    40%  { background: #B8CC33; }
-    60%  { background: #FCCA00; }
-    80%  { background: #33CC36; }
-    100% { background: #33CCCC; }
-  }
 
 
 
 
- body{
+body{
     font-family:Revalia,sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 70em;
-
-    background: #33CCCC; /* Fallback */
-    animation: color 9s infinite linear;
-    padding: 2em;
-
-
 }
+
 .knopki{
     display: flex;
     justify-content: center;
     margin-right: 10%;
 }
 
-.img{
-    width: 100px;
-    height: 120px;
+img{
+    width: 50%;
+    height: 50%;
+}
+
+a:link{color: black;}
+a:visited{color: black;}
+a{
+    text-decoration: none;
 }
